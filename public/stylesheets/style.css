@@ -1,0 +1,160 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+header nav {
+    background-color: transparent;
+
+}
+header {
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    width: 100%;
+}
+
+.image-container {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-attachment: scroll;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+
+}
+
+.image-details {
+    background-color: black;
+    position:absolute;
+    padding-left: 50px;
+    bottom: 0px;
+    opacity: 0.5;
+    color: white;
+    width: 100%;
+}
+
+.dialouge {
+    color: white;
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    top: 40%;
+    font-size: 3em;
+    font-weight:bold;
+}
+
+.credit {
+    font-size: 0.5em;
+    font-weight:normal;
+}
+
+.image-details img{
+    cursor: pointer;
+}
+
+
+footer {
+    color: white;
+    font-size:1em;
+    background-color: green;
+    opacity: 0.5;
+}
+
+.copyright {
+    float: left;
+    margin-left: 50px;
+}
+.shares {
+    float: right;
+    margin-right: 50px;
+}
+
+.visit {
+    float: right;
+    margin-right:50px;
+}
+
+
+/*Android*/
+@media screen
+and (device-width: 360px)
+and (device-height: 640px)
+and (-webkit-device-pixel-ratio: 3) {
+    .copyright {
+        display: block;
+        margin-left: 10px;
+
+    }
+    .shares {
+        float: right;
+        margin-right:10px;
+    }
+
+    .visit {
+        float: left;
+        margin-left:10px;
+    }
+    .dialouge {
+        font-size: 1.5em;
+        width: 80%;
+    }
+}
+
+/* Portrait */
+@media screen
+and (device-width: 360px)
+and (device-height: 640px)
+and (-webkit-device-pixel-ratio: 3)
+and (orientation: portrait) {
+    .copyright {
+        display: block;
+        margin-left: 10px;
+
+    }
+    .shares {
+        float: right;
+        margin-right:10px;
+    }
+
+    .visit {
+        float: left;
+        margin-left:10px;
+    }
+    .dialouge {
+        font-size: 1.5em;
+        width: 80%;
+    }
+}
+
+/* Landscape */
+@media screen
+and (device-width: 360px)
+and (device-height: 640px)
+and (-webkit-device-pixel-ratio: 3)
+and (orientation: landscape) {
+    .copyright {
+        display: block;
+        margin-left: 10px;
+
+    }
+    .shares {
+        float: right;
+        margin-right:10px;
+    }
+
+    .visit {
+        float: left;
+        margin-left:10px;
+    }
+
+    .dialouge {
+        font-size: 1.5em;
+        width: 80%;
+    }
+}
+
+
